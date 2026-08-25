@@ -1,0 +1,70 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        brand: {
+          maroon: {
+            DEFAULT: '#7A1F2B',
+            50: '#FBF5F5',
+            100: '#F5E6E8',
+            200: '#E8C5CA',
+            300: '#D59AA2',
+            400: '#BA6673',
+            500: '#9B3544',
+            600: '#7A1F2B',
+            700: '#631822',
+            800: '#4D121A',
+            900: '#340B11',
+            950: '#20050A',
+          },
+          gold: {
+            DEFAULT: '#C4A35A',
+            50: '#FBF9F3',
+            100: '#F5EFE0',
+            200: '#EBDDBF',
+            300: '#DEC697',
+            400: '#D1AF70',
+            500: '#C4A35A',
+            600: '#A7853E',
+            700: '#7E632D',
+            800: '#56421E',
+            900: '#302410',
+          },
+          cream: {
+            DEFAULT: '#FFF8F0',
+            50: '#FFFFFF',
+            100: '#FFFDF9',
+            200: '#FFF8F0',
+            300: '#F9ECD9',
+            400: '#F3E0C1',
+            500: '#ECCFA4',
+          },
+          accent: '#F3E6C8',
+          charcoal: {
+            DEFAULT: '#1F1A17',
+            50: '#8A7B73',
+            100: '#73665E',
+            200: '#5D514A',
+            300: '#473D37',
+            400: '#332B26',
+            500: '#1F1A17',
+            600: '#181412',
+            700: '#120F0D',
+            800: '#0C0A09',
+            900: '#060505',
+          },
+        },
+      },
+      fontFamily: {
+        display: ['"Playfair Display"', 'Georgia', 'serif'],
+        sans: ['"Source Sans 3"', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+}
